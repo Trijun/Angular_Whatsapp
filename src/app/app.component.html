@@ -1,0 +1,18 @@
+<div fxLayout="row" >
+    <div fxLayout="column" fxFlex="30" >
+        <app-leftside-navbar></app-leftside-navbar>
+        <div *ngFor="let index of [0,1,2,3,4,5,6,7,8,9,10]">
+            <div routerLink="/chatbox">
+                <app-leftside-chatlist></app-leftside-chatlist>
+            </div>
+        </div>
+    </div>
+    <div fxLayout="column" fxFlex="70" >
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+
+
+
+

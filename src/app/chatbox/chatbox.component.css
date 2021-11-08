@@ -1,0 +1,62 @@
+/* Material CSS */
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+/* Custom class */
+input{
+  border:none;
+  font-size: 14px;
+}
+input:focus{
+  outline: none;
+}
+
+.greyBackground20{
+    background-color: rgb(242, 242, 242);
+    color: rgb(73, 73, 73);
+}
+
+.greyBackground10{
+  background-color: rgb(249, 249, 249);
+  height: 50px;
+  width: 100%;
+}
+
+.search{
+  width: 100%;
+  height: 30px;
+  background: white;
+  border-radius: 20px;
+}
+.searchIcon{
+  padding: 0px 10px;
+  padding-top: 5px;
+}
+.searchBox{
+  padding: 8px 6px;
+  width: 100%;
+}
+
+.username{
+    margin: 0px 15px;
+    font-size: 18px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+}
+.height{
+    height: 700px;
+}
+
+.searchBoxMargin{
+    margin: 5px 10px 5px 0px;
+    width:780px;
+}

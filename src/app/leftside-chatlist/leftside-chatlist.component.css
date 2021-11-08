@@ -1,0 +1,26 @@
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+.card{
+    height: 40px;
+    background: white;
+    color: black;
+    box-shadow: none;
+    padding: auto 16px;
+}
+.card:hover{
+    background: rgb(220, 220, 220);
+}
+.margin{
+    margin: 6px 0px;
+}
+.displayPicture{
+    padding: 0px;
+}
+.content{
+    padding: auto;
+}
+.tiktik{
+    size: 5px;
+}
